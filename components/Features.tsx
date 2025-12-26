@@ -19,17 +19,17 @@ const Features = () => {
           Your True Love Might Just Be Waiting For You , Who Knows!
         </p>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 mt-8 z-10 w-full'>
-          <div className='flex flex-col items-center justify-center w-full'>
+        <div className='grid grid-cols-1 md:grid-cols-3  mt-8 z-10 gap-8'>
+          <div className='flex flex-col items-center justify-center'>
             <Image
               src='/images/first-img.png'
               alt='feature-1'
               width={354}
               height={337}
-              className='w-full md:w-[354px] h-auto'
+              className='w-full  md:w-[354px] h-auto'
             />
           </div>
-          <div className='flex flex-col items-center justify-center w-full'>
+          <div className='flex flex-col items-center justify-center '>
             <Image
               src='/images/middle-img.png'
               alt='feature-1'
@@ -38,7 +38,7 @@ const Features = () => {
               className='w-full md:w-[354px] h-auto'
             />
           </div>
-          <div className='flex flex-col items-center justify-center w-full'>
+          <div className='flex flex-col items-center justify-center '>
             <Image
               src='/images/last-img.png'
               alt='feature-1'

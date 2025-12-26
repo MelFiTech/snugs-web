@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center gap-20 mt-[120px]'>
+    <div className='flex flex-col items-center gap-10 mt-[120px]'>
       <div className='flex flex-col items-center justify-center'>
         <h1 className='text-[#FFFFFF] md:text-[96px] text-[42px] font-bold text-center leading-[81%] tracking-[-1.38px]'>
           flirt loud, <br /> Meet fast, <br /> Feel the spark.

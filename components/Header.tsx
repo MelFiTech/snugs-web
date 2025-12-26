@@ -23,7 +23,7 @@ const Header = () => {
       </div>
 
       {/* Logo - Centered on mobile, original position on desktop */}
-      <div className='flex-1 md:flex-none flex justify-center md:justify-start'>
+      <div className='flex-1 md:flex-none md:ml-14 flex justify-center md:justify-start'>
         <Image
           src='/images/logo.png'
           alt='logo'
