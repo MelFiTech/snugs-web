@@ -33,3 +33,18 @@ h1 {
   --font-mono: var(--font-geist-mono);
   --font-clash: var(--font-clash);
 }
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 2s ease-in-out infinite;
+}

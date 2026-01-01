@@ -20,7 +20,7 @@ const Page = () => {
           <Image
             src='/images/stars-l-svg.svg'
             alt='hero-background'
-            className=' object-cover h-fit w-fit z-10 '
+            className=' object-cover h-fit w-fit z-10 animate-twinkle '
             width={340}
             height={200}
           />
@@ -29,7 +29,7 @@ const Page = () => {
           <Image
             src='/images/stars-l-svg.svg'
             alt='hero-background'
-            className=' object-cover h-fit w-fit z-10 '
+            className=' object-cover h-fit w-fit z-10 animate-twinkle '
             width={340}
             height={200}
           />
