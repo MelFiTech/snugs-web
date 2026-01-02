@@ -32,6 +32,11 @@ export const metadata: Metadata = {
   icons: {
     icon: '/images/logo.png',
   },
+  openGraph: {
+    title: 'Snugs',
+    description: 'Snugs is a dating app that allows you to find your true love.',
+    images: ['/images/thumbnail.png'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
