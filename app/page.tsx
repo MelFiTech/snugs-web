@@ -16,7 +16,7 @@ const Page = () => {
             fill
           />
         </div>
-        <div className='absolute top-[147.33px] left-[20.28px] hidden md:block '>
+        <div className='absolute top-[147.33px] left-[20.28px] block '>
           <Image
             src='/images/stars-l-svg.svg'
             alt='hero-background'
@@ -25,7 +25,7 @@ const Page = () => {
             height={200}
           />
         </div>
-        <div className='absolute bottom-[500.33px] right-[20.28px] hidden md:block '>
+        <div className='absolute bottom-[500.33px] right-[20.28px] block '>
           <Image
             src='/images/stars-l-svg.svg'
             alt='hero-background'
@@ -34,10 +34,10 @@ const Page = () => {
             height={200}
           />
         </div>
-        <div className='absolute top-0 left-0 h-fit hidden md:block'>
+        <div className='absolute top-0 left-0 h-fit block'>
           <Image src='/images/left-green.png' alt='hero-background' width={500} height={300} />
         </div>
-        <div className='absolute top-[-20px] right-0 h-fit hidden md:block'>
+        <div className='absolute top-[-20px] right-0 h-fit block'>
           <Image src='/images/right-green.png' alt='hero-background' width={500} height={300} />
         </div>
         <Header />

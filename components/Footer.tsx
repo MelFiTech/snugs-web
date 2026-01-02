@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className='bg-black w-full py-8 md:py-16'>
+    <footer className='bg-black w-full py-8 px-4 md:py-16'>
       {/* Top Section */}
       <div className='flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-0 mb-8 md:mb-12 px-4 md:px-20'>
         {/* Left - Logo */}
@@ -12,7 +12,7 @@ const Footer = () => {
             alt='snugs logo'
             width={340}
             height={82}
-            className='h-auto w-[200px] md:w-[340px]'
+            className='h-auto w-[269.45px] md:w-[340px]'
           />
         </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
       {/* Middle Section */}
       <div className='flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-8 md:mb-12 px-4 md:px-20'>
         {/* Left - Navigation Links */}
-        <div className='flex items-center gap-2'>
+        <div className=' hidden md:flex items-center gap-2'>
           <a
             href='#'
             className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'
@@ -74,13 +74,15 @@ const Footer = () => {
         </div>
 
         {/* Right - Newsletter Subscription */}
-        <div className='flex flex-col gap-3 w-full md:w-[50%]'>
-          <p className='text-white text-sm md:text-base'>Subscribe to Newsletter</p>
+        <div className='flex flex-col  gap-3 w-full md:w-[50%]'>
+          <p className='text-white text-center md:text-start text-[18px] md:text-base'>
+            Subscribe to Newsletter
+          </p>
           <div className='flex items-center bg-[#1a1a1a] rounded-full pr-1 md:pr-1.5'>
             <input
               type='email'
               placeholder='Your Email'
-              className='bg-transparent text-gray-400 placeholder-gray-500 rounded-full px-4 md:px-6 py-2.5 md:py-3 text-sm md:text-base focus:outline-none border-none flex-1 min-w-0'
+              className='bg-transparent  text-gray-400 placeholder-gray-500 rounded-full px-4 md:px-6 py-2.5 md:py-3 text-sm md:text-base focus:outline-none border-none flex-1 min-w-0'
             />
             <button className='w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-[#2a2a2a] transition-colors cursor-pointer shrink-0'>
               <svg
@@ -97,8 +99,18 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className='flex items-center gap-2 justify-center mb-4 md:hidden'>
+        <a href='#' className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'>
+          Contact us
+        </a>
+        <span className='w-1 h-1 rounded-full bg-gray-600'></span>
+        <a href='#' className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'>
+          About us
+        </a>
+      </div>
+
       {/* Separator Line */}
-      <div className='border-t border-gray-600 mb-8'></div>
+      <div className='border-t border-gray-600 mb-8 '></div>
 
       {/* Bottom Section */}
       <div className='flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 px-4 md:px-20'>

@@ -23,7 +23,7 @@ const Header = () => {
       </div>
 
       {/* Logo - Centered on mobile, original position on desktop */}
-      <div className='flex-1 md:flex-none md:ml-14 flex justify-center md:justify-start'>
+      <div className='flex-1 md:flex-none md:ml-14 flex justify-start md:justify-start'>
         <Image
           src='/images/logo.png'
           alt='logo'
@@ -46,22 +46,22 @@ const Header = () => {
       {/* Mobile Menu Icon */}
       <button
         onClick={toggleMenu}
-        className='md:hidden flex flex-col items-center justify-center w-8 h-8 gap-1.5 z-50'
+        className='md:hidden flex flex-col items-end justify-center w-8 h-8 gap-1.5 z-50'
         aria-label='Toggle menu'
       >
         <span
-          className={`block w-6 h-0.5 bg-[#8F8F8F] transition-all duration-300 ${
+          className={`block w-8 h-1 bg-white transition-all duration-300 ${
             isMenuOpen ? 'rotate-45 translate-y-2' : ''
           }`}
         />
         <span
-          className={`block w-6 h-0.5 bg-[#8F8F8F] transition-all duration-300 ${
+          className={`block w-8 h-1 bg-white transition-all duration-300 ${
             isMenuOpen ? 'opacity-0' : ''
           }`}
         />
         <span
-          className={`block w-6 h-0.5 bg-[#8F8F8F] transition-all duration-300 ${
-            isMenuOpen ? '-rotate-45 -translate-y-2' : ''
+          className={`block  h-1 bg-white transition-all duration-300 ${
+            isMenuOpen ? '-rotate-45 -translate-y-2 w-8' : 'w-4'
           }`}
         />
       </button>

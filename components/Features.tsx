@@ -12,15 +12,15 @@ const Features = () => {
         />
       </div>
       <div className='flex mt-8 flex-col w-full justify-center items-center px-4 pb-8 md:pb-0'>
-        <p className='text-[28px] md:text-[64px] font-bold bg-linear-to-r from-[#8F8F8F] to-[#F5F5F5] text-transparent bg-clip-text text-center'>
+        <p className='text-[48px] tracking-[-1.21px] leading-[81%] md:text-[64px] font-bold bg-linear-to-r from-[#8F8F8F] to-[#F5F5F5] text-transparent bg-clip-text text-center'>
           What are you waiting for?
         </p>
-        <p className='text-[16px] md:text-[24px] font-bold bg-linear-to-r from-[#8F8F8F] to-[#F5F5F5] text-transparent bg-clip-text text-center mt-2 md:mt-0 px-4'>
+        <p className='text-[20px] md:text-[24px] tracking-[-1.21px] leading-[125%] font-bold bg-linear-to-r from-[#8F8F8F] to-[#F5F5F5] text-transparent bg-clip-text text-center mt-2 md:mt-0 px-4'>
           Your True Love Might Just Be Waiting For You , Who Knows!
         </p>
 
-        <div className='grid grid-cols-1 md:grid-cols-3  mt-8 z-10 gap-8'>
-          <div className='flex flex-col items-center justify-center'>
+        <div className='grid grid-cols-1 w-full px-6 md:grid-cols-3  mt-8 z-10 gap-8'>
+          <div className='flex flex-col  items-center justify-center'>
             <Image
               src='/images/first-img.png'
               alt='feature-1'
