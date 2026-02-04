@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -58,19 +59,19 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-8 md:mb-12 px-4 md:px-20'>
         {/* Left - Navigation Links */}
         <div className='flex items-center gap-2'>
-          <a
-            href='#'
+          <Link
+            href='/contact'
             className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'
           >
             Contact us
-          </a>
+          </Link>
           <span className='w-1 h-1 rounded-full bg-gray-600'></span>
-          <a
-            href='#'
+          <Link
+            href='/'
             className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'
           >
             About us
-          </a>
+          </Link>
         </div>
 
         {/* Right - Newsletter Subscription */}
@@ -109,19 +110,19 @@ const Footer = () => {
 
         {/* Right - Legal Links */}
         <div className='flex items-center gap-3'>
-          <a
-            href='#'
+          <Link
+            href='/terms'
             className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'
           >
             Terms & Conditions
-          </a>
+          </Link>
           <span className='w-px h-4 bg-gray-600'></span>
-          <a
-            href='#'
+          <Link
+            href='/privacy'
             className='text-white text-sm md:text-base hover:opacity-80 transition-opacity'
           >
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
